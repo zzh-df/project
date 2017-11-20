@@ -1,0 +1,74 @@
+@charset 'utf-8';
+//reset style
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, 
+h3, h4, h5, h6, form, input, select, button, 
+textarea, table, th, tr, td{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+b,em,i{
+    font-weight: normal;
+    background:none;
+    font-style:normal;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+ul, ol, dl, li {
+    list-style-type: none;
+}
+
+input, select, button, textarea {
+    border: none;
+    outline: medium;
+    font-size:0.12rem;
+}
+
+html,html>body{height:100%;}
+body {
+    font-size: 0.14rem;
+    font-family: Tahoma, Geneva, Microsoft YaHei, "Source Han Sans CN Light", sans-serif;
+}
+
+//
+.prompt{
+    width: 0.20rem;
+    height: 0.20rem;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 0.20rem;
+}
+//other-common
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.hide{
+    display: none;
+}
+
+//font-size
+.fw{font-weight: bold;}
+
+.f12{font-size:0.12rem;}
+.f14{font-size:0.14rem;}
+.f16{font-size:0.16rem;}
+.f18{font-size:0.18rem;}
+.f20{font-size:0.20rem;}
+.f22{font-size:0.22rem;}
+.f24{font-size:0.24rem;}
